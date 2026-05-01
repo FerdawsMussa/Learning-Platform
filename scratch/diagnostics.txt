@@ -1,0 +1,152 @@
+Found 'content_courses' in about.php | Context: text-secondary);">Categorized content_courses, notes, and ma
+Found 'content_resources' in about.php | Context:  a student seeking structured content_resources or an instru
+Found 'progress_streaks' in about.php | Context: s that show completed topics, progress_streaks, and achievem
+Found 'content_courses' in admin_actions.php | Context:  password, role, is_approved, content_courses, content_resou
+Found 'content_resources' in admin_actions.php | Context: is_approved, content_courses, content_resources) VALUES (?, 
+Found 'thumbnail_path' in admin_actions.php | Context: le, description, file_path AS thumbnail_path, category, gene
+Found 'content_courses' in admin_auth.php | Context:  email, password, role, meta, content_courses, content_resou
+Found 'content_resources' in admin_auth.php | Context:  role, meta, content_courses, content_resources) VALUES (?, 
+Found 'content_courses' in certificate_engine.php | Context: WHERE record_type = 'course') content_courses WHERE id = ?")
+Found 'progress_certificates' in certificate_engine.php | Context:  record_type = 'certificate') progress_certificates WHERE st
+Found 'thumbnail_path' in certificate_engine.php | Context: le, description, file_path AS thumbnail_path, category, gene
+Found 'cert_id' in certificate_engine.php | Context: $stmt = $pdo->prepare("SELECT cert_id FROM (SELECT id, user_
+Found 'content_resources' in delete_content.php | Context: ERE record_type = 'resource') content_resources WHERE id = ?
+Found 'content_courses' in edit_course.php | Context: dit/delete other instructors' content_courses         $stmt 
+Found 'content_courses' in get_user_details.php | Context: es_ids'] = json_decode($user['content_courses'] ?? '[]', tru
+Found 'content_resources' in get_user_details.php | Context: es_ids'] = json_decode($user['content_resources'] ?? '[]', t
+Found 'progress_lesson_progress' in get_user_details.php | Context: prepare("SELECT COUNT(*) FROM progress_lesson_progress WHERE
+Found 'thumbnail_path' in get_user_details.php | Context: le, description, file_path AS thumbnail_path, category, gene
+Found 'content_courses' in instructor_v2_actions.php | Context:        // Update instructor's content_courses array         
+Found 'content_resources' in instructor_v2_actions.php | Context:       if (!is_dir('../uploads/content_resources/')) mkdir('.
+Found 'content_course_feedback' in instructor_v2_actions.php | Context:         $pdo->prepare("UPDATE content_course_feedback SET re
+Found 'progress_lessons' in instructor_v2_actions.php | Context:             // Hotfix: Ensure progress_lessons.type can acce
+Found 'thumbnail_path' in instructor_v2_actions.php | Context: Handle Thumbnail             $thumbnail_path = null;        
+Found 'module_id' in instructor_v2_actions.php | Context: ECT id, course_id, item_id AS module_id, title, content_type
+Found 'content_courses' in offline_course.php | Context: WHERE record_type = 'course') content_courses WHERE id = ? A
+Found 'progress_lessons' in offline_course.php | Context: ]);     exit; }  // Fetch all progress_lessons $progress_les
+Found 'thumbnail_path' in offline_course.php | Context: le, description, file_path AS thumbnail_path, category, gene
+Found 'progress_lessons' in process_course.php | Context:  = $pdo->prepare("INSERT INTO progress_lessons (course_id, m
+Found 'thumbnail_path' in process_course.php | Context: il Upload (Optional)         $thumbnail_path = null;        
+Found 'module_id' in process_course.php | Context:  progress_lessons (course_id, module_id, title, file_path, f
+Found 'thumbnail_path' in process_instructor_course.php | Context: course fields.");     }      $thumbnail_path = null;        
+Found 'content_courses' in process_module.php | Context: WHERE record_type = 'course') content_courses WHERE id = ? A
+Found 'thumbnail_path' in process_module.php | Context: le, description, file_path AS thumbnail_path, category, gene
+Found 'content_resources' in upload.php | Context: se the new categorized table 'content_resources' instead of 
+Found 'content_courses' in upload_lesson.php | Context: WHERE record_type = 'course') content_courses WHERE id = ? A
+Found 'progress_lessons' in upload_lesson.php | Context: WHERE record_type = 'lesson') progress_lessons WHERE course_
+Found 'thumbnail_path' in upload_lesson.php | Context: le, description, file_path AS thumbnail_path, category, gene
+Found 'module_id' in upload_lesson.php | Context: ST['course_id'] ?? null;     $module_id = !empty($_POST['mod
+Found 'content_courses' in check_courses_table.php | Context: $stmt = $pdo->query("DESCRIBE content_courses");     echo "<
+Found 'progress_lessons' in check_lessons.php | Context: $stmt = $pdo->query("DESCRIBE progress_lessons"); $cols = $s
+Found 'content_courses' in courses.php | Context: e 'api/db.php';  // Fetch all content_courses for the browse
+Found 'thumbnail_path' in courses.php | Context: le, description, file_path AS thumbnail_path, category, gene
+Found 'content_courses' in dashboard.php | Context: ry {         // Fetch current content_courses         $stmt 
+Found 'streak_count' in dashboard.php | Context: epare("SELECT metric_value AS streak_count, last_activity_at
+Found 'content_courses' in admin.php | Context: WHERE record_type = 'course') content_courses WHERE is_delet
+Found 'content_resources' in admin.php | Context:      $r_arr = json_decode($i['content_resources'] ?? '[]', t
+Found 'progress_lessons' in admin.php | Context:  ON lp.student_id = u.id JOIN progress_lessons l ON lp.lesso
+Found 'progress_certificates' in admin.php | Context: chAll(); } elseif ($view === 'progress_certificates') {     
+Found 'progress_lesson_progress' in admin.php | Context: ord_type = 'lesson_progress') progress_lesson_progress group
+Found 'progress_streaks' in admin.php | Context: chAll(); } elseif ($view === 'progress_streaks') {     $prog
+Found 'notification_student' in admin.php | Context: "SELECT n.*, u.full_name FROM notification_student n JOIN us
+Found 'notification_instructor' in admin.php | Context: "SELECT n.*, u.full_name FROM notification_instructor n JOIN
+Found 'thumbnail_path' in admin.php | Context: le, description, file_path AS thumbnail_path, category, gene
+Found 'streak_count' in admin.php | Context: LECT user_id, metric_value AS streak_count, last_activity_at
+Found 'cert_id' in admin.php | Context: ery("SELECT c.metric_value AS cert_id, c.created_at AS issue
+Found 'content_courses' in creator.php | Context: WHERE record_type = 'course') content_courses WHERE creator_
+Found 'content_resources' in creator.php | Context: ERE record_type = 'resource') content_resources WHERE creato
+Found 'thumbnail_path' in creator.php | Context: le, description, file_path AS thumbnail_path, category, gene
+Found 'content_courses' in student.php | Context: streak_count'] : 0;  // Fetch content_courses $content_cours
+Found 'content_resources' in student.php | Context:  href="../content_courses.php#content_resources" class="side
+Found 'thumbnail_path' in student.php | Context: le, description, file_path AS thumbnail_path, category, gene
+Found 'streak_count' in student.php | Context: treak_data = $stmt->fetch(); $streak_count = $streak_data ? 
+Found 'content_courses' in add_soft_delete_columns.php | Context: 2. Add soft-delete columns to content_courses     $q = $pdo-
+Found 'content_resources' in add_soft_delete_columns.php | Context: 3. Add soft-delete columns to content_resources     $q = $pd
+Found 'content_courses' in create_enrollments.php | Context: KEY (`course_id`) REFERENCES `content_courses`(`id`) ON DELE
+Found 'thumbnail_path' in create_enrollments.php | Context: le, description, file_path AS thumbnail_path, category, gene
+Found 'content_courses' in migrate_courses_schema.php | Context: do->query("SHOW COLUMNS FROM `content_courses` LIKE 'categor
+Found 'progress_lessons' in migrate_lessons_content.php | Context: p';  try {     echo "Updating progress_lessons schema for dy
+Found 'content_courses' in migrate_modules_assignments.php | Context: KEY (`course_id`) REFERENCES `content_courses`(`id`) ON DELE
+Found 'progress_lessons' in migrate_modules_assignments.php | Context: do->query("SHOW COLUMNS FROM `progress_lessons` LIKE 'module
+Found 'module_id' in migrate_modules_assignments.php | Context: FROM `progress_lessons` LIKE 'module_id'");     if ($stmt->r
+Found 'content_courses' in migrate_to_unified_users.php | Context: ries = [         ['table' => 'content_courses', 'column' => 
+Found 'content_resources' in migrate_to_unified_users.php | Context: uctor'],         ['table' => 'content_resources', 'column' =
+Found 'progress_lesson_progress' in migrate_to_unified_users.php | Context: uctor'],         ['table' => 'progress_lesson_progress', 'co
+Found 'content_courses' in migrate_to_unified_users_v2.php | Context: dmin') NOT NULL,             `content_courses` JSON NULL COM
+Found 'content_resources' in migrate_to_unified_users_v2.php | Context: or instructors',             `content_resources` JSON NULL C
+Found 'progress_lesson_progress' in migrate_to_unified_users_v2.php | Context: uctor'],         ['table' => 'progress_lesson_progress', 'co
+Found 'thumbnail_path' in migrate_to_unified_users_v2.php | Context: le, description, file_path AS thumbnail_path, category, gene
+Found 'content_courses' in seed_courses.php | Context:  ];  // We can clear existing content_courses or just append
+Found 'notification_admin' in update_admin_features.php | Context: ("CREATE TABLE IF NOT EXISTS `notification_admin` (         
+Found 'content_courses' in update_instructor_v2.php | Context: php';  try {     // 1. Update content_courses table     $pdo
+Found 'content_course_feedback' in update_instructor_v2.php | Context: DE     )");      // 3. Create content_course_feedback table 
+Found 'progress_lessons' in update_instructor_v2.php | Context: EFAULT 0");      // 2. Create progress_lessons table     $pd
+Found 'notification_student' in update_instructor_v2.php | Context: DE     )");      // 4. Create notification_student table    
+Found 'content_courses' in update_instructor_v3.php | Context: ULL     ");      // 2. Update content_courses table     $pdo
+Found 'content_course_feedback' in update_instructor_v3.php | Context: DE     )");      // 4. Create content_course_feedback table 
+Found 'progress_lessons' in update_instructor_v3.php | Context: T 0     ");      // 3. Create progress_lessons table     $pd
+Found 'notification_student' in update_instructor_v3.php | Context: DE     )");      // 5. Create notification_student table    
+Found 'content_courses' in db_fix.php | Context: g old tables.     $tables = ['content_courses' => 'creator_i
+Found 'content_resources' in db_fix.php | Context: nt_courses' => 'creator_id', 'content_resources' => 'creator
+Found 'progress_lesson_progress' in db_fix.php | Context: _resources' => 'creator_id', 'progress_lesson_progress' => '
+Found 'content_courses' in db_revert.php | Context: ng to `users`     $tables = ['content_courses' => 'creator_i
+Found 'content_resources' in db_revert.php | Context: nt_courses' => 'creator_id', 'content_resources' => 'creator
+Found 'progress_lesson_progress' in db_revert.php | Context: _resources' => 'creator_id', 'progress_lesson_progress' => '
+Found 'content_courses' in diag_db.php | Context: ables = ['content_creators', 'content_courses', 'progress_le
+Found 'content_course_feedback' in diag_db.php | Context: ourses', 'progress_lessons', 'content_course_feedback', 'not
+Found 'progress_lessons' in diag_db.php | Context: reators', 'content_courses', 'progress_lessons', 'content_co
+Found 'notification_student' in diag_db.php | Context: , 'content_course_feedback', 'notification_student']; $info 
+Found 'content_courses' in final_schema_check.php | Context: $stmt = $pdo->query("DESCRIBE content_courses");     print_r
+Found 'progress_lessons' in final_schema_check.php | Context: $stmt = $pdo->query("DESCRIBE progress_lessons");     print_
+Found 'content_courses' in final_schema_check_json.php | Context: ma = []; try {     foreach (['content_courses', 'progress_le
+Found 'progress_lessons' in final_schema_check_json.php | Context: foreach (['content_courses', 'progress_lessons'] as $table) 
+Found 'content_courses' in fix_courses_table.php | Context: $stmt = $pdo->query("DESCRIBE content_courses");     $column
+Found 'thumbnail_path' in fix_courses_table.php | Context: d') AFTER category",         'thumbnail_path' => "VARCHAR(25
+Found 'content_courses' in fix_db_schema.php | Context: SES TABLE     echo "Checking 'content_courses' table...\n"; 
+Found 'progress_lessons' in fix_db_schema.php | Context: S TABLE     echo "\nChecking 'progress_lessons' table...\n";
+Found 'thumbnail_path' in fix_db_schema.php | Context: d') AFTER category",         'thumbnail_path' => "VARCHAR(25
+Found 'content_courses' in dash_student.php | Context: >fetchAll();  // Fetch User's content_courses array first $u
+Found 'progress_certificates' in dash_student.php | Context:  <p class="text-secondary">No progress_certificates earned y
+Found 'thumbnail_path' in dash_student.php | Context: course_title, co.file_path as thumbnail_path FROM (SELECT id
+Found 'streak_count' in dash_student.php | Context: epare("SELECT metric_value AS streak_count FROM progress WHE
+Found 'cert_id' in dash_student.php | Context: d, course_id, metric_value AS cert_id, created_at AS issued_
+Found 'content_courses' in header.php | Context:        <li><a href="index.php#content_courses" class="<?= $c
+Found 'content_resources' in header.php | Context:        <li><a href="index.php#content_resources" class="<?= 
+Found 'progress_certificates' in PHPMailer.php | Context: is requires that the server's progress_certificates are vali
+Found 'content_courses' in index.php | Context: 'api/db.php';    // Fetch all content_courses for the browse
+Found 'content_resources' in index.php | Context:  a student seeking structured content_resources or an instru
+Found 'content_course_feedback' in index.php | Context: h average rating from the new content_course_feedback table 
+Found 'progress_streaks' in index.php | Context: s that show completed topics, progress_streaks, and achievem
+Found 'thumbnail_path' in index.php | Context: le, description, file_path AS thumbnail_path, category, gene
+Found 'content_courses' in instructor_dashboard.php | Context: es = json_decode($instructor['content_courses'] ?? '[]', tru
+Found 'content_resources' in instructor_dashboard.php | Context: es = json_decode($instructor['content_resources'] ?? '[]', t
+Found 'progress_lessons' in instructor_dashboard.php | Context:              <div id="dynamic-progress_lessons-container">  
+Found 'thumbnail_path' in instructor_dashboard.php | Context: le, description, file_path AS thumbnail_path, category, gene
+Found 'content_resources' in resources.php | Context: ards -->         <section id="content_resources" class="anim
+Found 'content_courses' in search.php | Context: WHERE record_type = 'course') content_courses WHERE title LI
+Found 'content_resources' in search.php | Context: ocal Resources Array (Mirrors content_resources.php dataset)
+Found 'thumbnail_path' in search.php | Context: le, description, file_path AS thumbnail_path, category, gene
+Found 'content_courses' in signup.php | Context: _name, email, password, role, content_courses) VALUES (?, ?,
+Found 'content_resources' in signup.php | Context: roved, meta, content_courses, content_resources) VALUES (?, 
+Found 'progress_streaks' in signup.php | Context: );              // Initialize progress_streaks             $
+Found 'notification_admin' in signup.php | Context: = $pdo->prepare("INSERT INTO `notification_admin` (message) 
+Found 'content_courses' in student_viewer.php | Context: WHERE record_type = 'course') content_courses WHERE id = ?")
+Found 'content_resources' in student_viewer.php | Context: ERE record_type = 'resource') content_resources WHERE id = ?
+Found 'content_course_feedback' in student_viewer.php | Context: ERE record_type = 'feedback') content_course_feedback WHERE 
+Found 'progress_lessons' in student_viewer.php | Context: sing."); }  $content = null; $progress_lessons = []; $active
+Found 'thumbnail_path' in student_viewer.php | Context: le, description, file_path AS thumbnail_path, category, gene
+Found 'content_courses' in test_query.php | Context: WHERE record_type = 'course') content_courses");     $stmt->
+Found 'content_resources' in test_query.php | Context: ERE record_type = 'resource') content_resources");     $stmt
+Found 'thumbnail_path' in test_query.php | Context: ("SELECT id, title, category, thumbnail_path, level, is_reso
+Found 'content_courses' in test_query2.php | Context: WHERE record_type = 'course') content_courses WHERE creator_
+Found 'content_resources' in test_query2.php | Context: ERE record_type = 'resource') content_resources WHERE creato
+Found 'thumbnail_path' in test_query2.php | Context: ("SELECT id, title, category, thumbnail_path, level, is_reso
+Found 'content_courses' in test_tables.php | Context: rogress_lessons', 'modules', 'content_courses']; foreach ($t
+Found 'progress_lessons' in test_tables.php | Context: back', 'views', 'downloads', 'progress_lessons', 'modules', 
+Found 'content_courses' in view_certificate.php | Context:  c.student_id = s.id     JOIN content_courses co ON c.course
+Found 'thumbnail_path' in view_certificate.php | Context:  co.title as course_title, co.thumbnail_path     FROM (SELEC
+Found 'cert_id' in view_certificate.php | Context:  the user or is a valid cert $cert_id = $_GET['id'] ?? '';  
+Found 'content_courses' in view_content.php | Context: WHERE record_type = 'course') content_courses WHERE id = ?")
+Found 'content_resources' in view_content.php | Context: ERE record_type = 'resource') content_resources WHERE id = ?
+Found 'progress_lessons' in view_content.php | Context: sing."); }  $content = null; $progress_lessons = []; $active
+Found 'thumbnail_path' in view_content.php | Context: le, description, file_path AS thumbnail_path, category, gene

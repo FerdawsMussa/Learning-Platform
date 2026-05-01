@@ -1,0 +1,1010 @@
+[2026-04-20 09:07:55] SMTP ERROR: Failed to connect to server: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond (10060)
+[2026-04-20 09:07:55] SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[2026-04-20 09:07:55] FINAL ERROR: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[2026-04-20 09:09:42] SMTP ERROR: Failed to connect to server: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond (10060)
+[2026-04-20 09:09:42] SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[2026-04-20 09:09:42] FINAL ERROR: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[2026-04-20 09:10:10] SMTP ERROR: Failed to connect to server: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond (10060)
+[2026-04-20 09:10:10] SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[2026-04-20 09:10:10] FINAL ERROR: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[2026-04-20 09:11:28] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP a640c23a62f3a-ba538429115sm254028666b.15 - gsmtp
+
+[2026-04-20 09:11:28] CLIENT -> SERVER: EHLO 10.14.84.218
+
+[2026-04-20 09:11:28] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [196.188.252.175]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2026-04-20 09:11:28] CLIENT -> SERVER: AUTH LOGIN
+
+[2026-04-20 09:11:29] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[2026-04-20 09:11:29] CLIENT -> SERVER: [credentials hidden]
+[2026-04-20 09:11:29] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[2026-04-20 09:11:29] CLIENT -> SERVER: [credentials hidden]
+[2026-04-20 09:11:30] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[2026-04-20 09:11:30] CLIENT -> SERVER: MAIL FROM:<julearn.office@gmail.com>
+
+[2026-04-20 09:11:30] SERVER -> CLIENT: 250 2.1.0 OK a640c23a62f3a-ba538429115sm254028666b.15 - gsmtp
+
+[2026-04-20 09:11:30] CLIENT -> SERVER: RCPT TO:<sebrinmahmud@gmail.com>
+
+[2026-04-20 09:11:30] SERVER -> CLIENT: 250 2.1.5 OK a640c23a62f3a-ba538429115sm254028666b.15 - gsmtp
+
+[2026-04-20 09:11:30] CLIENT -> SERVER: DATA
+
+[2026-04-20 09:11:31] SERVER -> CLIENT: 354 Go ahead a640c23a62f3a-ba538429115sm254028666b.15 - gsmtp
+
+[2026-04-20 09:11:31] CLIENT -> SERVER: Date: Mon, 20 Apr 2026 09:11:27 +0200
+
+[2026-04-20 09:11:31] CLIENT -> SERVER: To: ahlam helil <sebrinmahmud@gmail.com>
+
+[2026-04-20 09:11:31] CLIENT -> SERVER: From: JU Learn System <julearn.office@gmail.com>
+
+[2026-04-20 09:11:31] CLIENT -> SERVER: Subject: Password Recovery - JU Learn
+
+[2026-04-20 09:11:31] CLIENT -> SERVER: Message-ID: <KbDCUKVUlQiz0oZcghLo9dNWf7nw1srJRDkU5IRP4@10.14.84.218>
+
+[2026-04-20 09:11:31] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.1 (https://github.com/PHPMailer/PHPMailer)
+
+[2026-04-20 09:11:31] CLIENT -> SERVER: MIME-Version: 1.0
+
+[2026-04-20 09:11:31] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[2026-04-20 09:11:31] CLIENT -> SERVER:  boundary="b1=_KbDCUKVUlQiz0oZcghLo9dNWf7nw1srJRDkU5IRP4"
+
+[2026-04-20 09:11:31] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2026-04-20 09:11:31] CLIENT -> SERVER: 
+
+[2026-04-20 09:11:31] CLIENT -> SERVER: --b1=_KbDCUKVUlQiz0oZcghLo9dNWf7nw1srJRDkU5IRP4
+
+[2026-04-20 09:11:31] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[2026-04-20 09:11:31] CLIENT -> SERVER: 
+
+[2026-04-20 09:11:31] CLIENT -> SERVER: Reset your password securely here: http://10.14.84.218/lastfyp/reset_password.php?token=eb041797577a0a4fb16141631451f7cbaa8b57ab64af1c3d21e39e29dcd683ff&role=student&email=sebrinmahmud%40gmail.com (This link expires in 1 Hour)
+
+[2026-04-20 09:11:31] CLIENT -> SERVER: 
+
+[2026-04-20 09:11:31] CLIENT -> SERVER: --b1=_KbDCUKVUlQiz0oZcghLo9dNWf7nw1srJRDkU5IRP4
+
+[2026-04-20 09:11:31] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+[2026-04-20 09:11:31] CLIENT -> SERVER: 
+
+[2026-04-20 09:11:31] CLIENT -> SERVER: Hello ahlam helil,<br><br>We received a request to reset your password. Click the secure link below to do so:<br><br><b><a href='http://10.14.84.218/lastfyp/reset_password.php?token=eb041797577a0a4fb16141631451f7cbaa8b57ab64af1c3d21e39e29dcd683ff&role=student&email=sebrinmahmud%40gmail.com'>Reset Your Password Here</a></b><br><br>If you didn't request this action, you can safely ignore this email. This link will expire in 1 Hour.<br><br>- The JU Learn Automated System
+
+[2026-04-20 09:11:31] CLIENT -> SERVER: 
+
+[2026-04-20 09:11:31] CLIENT -> SERVER: 
+
+[2026-04-20 09:11:31] CLIENT -> SERVER: --b1=_KbDCUKVUlQiz0oZcghLo9dNWf7nw1srJRDkU5IRP4--
+
+[2026-04-20 09:11:31] CLIENT -> SERVER: 
+
+[2026-04-20 09:11:31] CLIENT -> SERVER: .
+
+[2026-04-20 09:11:34] SERVER -> CLIENT: 250 2.0.0 OK  1776669095 a640c23a62f3a-ba538429115sm254028666b.15 - gsmtp
+
+[2026-04-20 09:11:34] CLIENT -> SERVER: QUIT
+
+[2026-04-20 09:11:34] SERVER -> CLIENT: 221 2.0.0 closing connection a640c23a62f3a-ba538429115sm254028666b.15 - gsmtp
+
+[2026-04-20 09:11:34] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP a640c23a62f3a-ba451210e54sm315563966b.9 - gsmtp
+
+[2026-04-20 09:11:34] CLIENT -> SERVER: EHLO 10.14.84.218
+
+[2026-04-20 09:11:35] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [196.188.252.175]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2026-04-20 09:11:35] CLIENT -> SERVER: AUTH LOGIN
+
+[2026-04-20 09:11:35] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[2026-04-20 09:11:35] CLIENT -> SERVER: [credentials hidden]
+[2026-04-20 09:11:35] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[2026-04-20 09:11:35] CLIENT -> SERVER: [credentials hidden]
+[2026-04-20 09:11:36] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[2026-04-20 09:11:36] CLIENT -> SERVER: MAIL FROM:<julearn.office@gmail.com>
+
+[2026-04-20 09:11:36] SERVER -> CLIENT: 250 2.1.0 OK a640c23a62f3a-ba451210e54sm315563966b.9 - gsmtp
+
+[2026-04-20 09:11:36] CLIENT -> SERVER: RCPT TO:<sebrinmahmud@gmail.com>
+
+[2026-04-20 09:11:36] SERVER -> CLIENT: 250 2.1.5 OK a640c23a62f3a-ba451210e54sm315563966b.9 - gsmtp
+
+[2026-04-20 09:11:36] CLIENT -> SERVER: DATA
+
+[2026-04-20 09:11:37] SERVER -> CLIENT: 354 Go ahead a640c23a62f3a-ba451210e54sm315563966b.9 - gsmtp
+
+[2026-04-20 09:11:37] CLIENT -> SERVER: Date: Mon, 20 Apr 2026 09:11:33 +0200
+
+[2026-04-20 09:11:37] CLIENT -> SERVER: To: ahlam helil <sebrinmahmud@gmail.com>
+
+[2026-04-20 09:11:37] CLIENT -> SERVER: From: JU Learn System <julearn.office@gmail.com>
+
+[2026-04-20 09:11:37] CLIENT -> SERVER: Subject: Password Recovery - JU Learn
+
+[2026-04-20 09:11:37] CLIENT -> SERVER: Message-ID: <sbRvCyeAjv3ofIDKvlFyzKGhvXjV286oLv7S04XDA8@10.14.84.218>
+
+[2026-04-20 09:11:37] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.1 (https://github.com/PHPMailer/PHPMailer)
+
+[2026-04-20 09:11:37] CLIENT -> SERVER: MIME-Version: 1.0
+
+[2026-04-20 09:11:37] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[2026-04-20 09:11:37] CLIENT -> SERVER:  boundary="b1=_sbRvCyeAjv3ofIDKvlFyzKGhvXjV286oLv7S04XDA8"
+
+[2026-04-20 09:11:37] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2026-04-20 09:11:37] CLIENT -> SERVER: 
+
+[2026-04-20 09:11:37] CLIENT -> SERVER: --b1=_sbRvCyeAjv3ofIDKvlFyzKGhvXjV286oLv7S04XDA8
+
+[2026-04-20 09:11:37] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[2026-04-20 09:11:37] CLIENT -> SERVER: 
+
+[2026-04-20 09:11:37] CLIENT -> SERVER: Reset your password securely here: http://10.14.84.218/lastfyp/reset_password.php?token=d5e2b738901e083b3347358e03e07ef3e1e88e7b6e0f6a98437089f22d6196c2&role=student&email=sebrinmahmud%40gmail.com (This link expires in 1 Hour)
+
+[2026-04-20 09:11:37] CLIENT -> SERVER: 
+
+[2026-04-20 09:11:37] CLIENT -> SERVER: --b1=_sbRvCyeAjv3ofIDKvlFyzKGhvXjV286oLv7S04XDA8
+
+[2026-04-20 09:11:37] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+[2026-04-20 09:11:37] CLIENT -> SERVER: 
+
+[2026-04-20 09:11:37] CLIENT -> SERVER: Hello ahlam helil,<br><br>We received a request to reset your password. Click the secure link below to do so:<br><br><b><a href='http://10.14.84.218/lastfyp/reset_password.php?token=d5e2b738901e083b3347358e03e07ef3e1e88e7b6e0f6a98437089f22d6196c2&role=student&email=sebrinmahmud%40gmail.com'>Reset Your Password Here</a></b><br><br>If you didn't request this action, you can safely ignore this email. This link will expire in 1 Hour.<br><br>- The JU Learn Automated System
+
+[2026-04-20 09:11:37] CLIENT -> SERVER: 
+
+[2026-04-20 09:11:37] CLIENT -> SERVER: 
+
+[2026-04-20 09:11:37] CLIENT -> SERVER: --b1=_sbRvCyeAjv3ofIDKvlFyzKGhvXjV286oLv7S04XDA8--
+
+[2026-04-20 09:11:37] CLIENT -> SERVER: 
+
+[2026-04-20 09:11:37] CLIENT -> SERVER: .
+
+[2026-04-20 09:11:38] SERVER -> CLIENT: 250 2.0.0 OK  1776669098 a640c23a62f3a-ba451210e54sm315563966b.9 - gsmtp
+
+[2026-04-20 09:11:38] CLIENT -> SERVER: QUIT
+
+[2026-04-20 09:11:38] SERVER -> CLIENT: 221 2.0.0 closing connection a640c23a62f3a-ba451210e54sm315563966b.9 - gsmtp
+
+[2026-04-20 09:12:07] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP a640c23a62f3a-ba4519f0602sm319894966b.20 - gsmtp
+
+[2026-04-20 09:12:07] CLIENT -> SERVER: EHLO 10.14.84.218
+
+[2026-04-20 09:12:07] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [196.188.252.175]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2026-04-20 09:12:07] CLIENT -> SERVER: AUTH LOGIN
+
+[2026-04-20 09:12:08] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[2026-04-20 09:12:08] CLIENT -> SERVER: [credentials hidden]
+[2026-04-20 09:12:08] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[2026-04-20 09:12:08] CLIENT -> SERVER: [credentials hidden]
+[2026-04-20 09:12:08] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[2026-04-20 09:12:08] CLIENT -> SERVER: MAIL FROM:<julearn.office@gmail.com>
+
+[2026-04-20 09:12:08] SERVER -> CLIENT: 250 2.1.0 OK a640c23a62f3a-ba4519f0602sm319894966b.20 - gsmtp
+
+[2026-04-20 09:12:08] CLIENT -> SERVER: RCPT TO:<ferdousmussa16@gmail.com>
+
+[2026-04-20 09:12:09] SERVER -> CLIENT: 250 2.1.5 OK a640c23a62f3a-ba4519f0602sm319894966b.20 - gsmtp
+
+[2026-04-20 09:12:09] CLIENT -> SERVER: DATA
+
+[2026-04-20 09:12:09] SERVER -> CLIENT: 354 Go ahead a640c23a62f3a-ba4519f0602sm319894966b.20 - gsmtp
+
+[2026-04-20 09:12:09] CLIENT -> SERVER: Date: Mon, 20 Apr 2026 09:12:06 +0200
+
+[2026-04-20 09:12:09] CLIENT -> SERVER: To: hanan <ferdousmussa16@gmail.com>
+
+[2026-04-20 09:12:09] CLIENT -> SERVER: From: JU Learn System <julearn.office@gmail.com>
+
+[2026-04-20 09:12:09] CLIENT -> SERVER: Subject: Password Recovery - JU Learn
+
+[2026-04-20 09:12:09] CLIENT -> SERVER: Message-ID: <b01Kwh71bN3iNYlYIRJ0STCFuOXUdP6ErOyf4BAo@10.14.84.218>
+
+[2026-04-20 09:12:09] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.1 (https://github.com/PHPMailer/PHPMailer)
+
+[2026-04-20 09:12:09] CLIENT -> SERVER: MIME-Version: 1.0
+
+[2026-04-20 09:12:09] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[2026-04-20 09:12:09] CLIENT -> SERVER:  boundary="b1=_b01Kwh71bN3iNYlYIRJ0STCFuOXUdP6ErOyf4BAo"
+
+[2026-04-20 09:12:09] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2026-04-20 09:12:09] CLIENT -> SERVER: 
+
+[2026-04-20 09:12:09] CLIENT -> SERVER: --b1=_b01Kwh71bN3iNYlYIRJ0STCFuOXUdP6ErOyf4BAo
+
+[2026-04-20 09:12:09] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[2026-04-20 09:12:09] CLIENT -> SERVER: 
+
+[2026-04-20 09:12:09] CLIENT -> SERVER: Reset your password securely here: http://10.14.84.218/lastfyp/reset_password.php?token=6217fd55a24d28bd852fc75d7d1abb72ee5f2cb3fe6ce3ebd599e602fef95420&role=student&email=ferdousmussa16%40gmail.com (This link expires in 1 Hour)
+
+[2026-04-20 09:12:09] CLIENT -> SERVER: 
+
+[2026-04-20 09:12:09] CLIENT -> SERVER: --b1=_b01Kwh71bN3iNYlYIRJ0STCFuOXUdP6ErOyf4BAo
+
+[2026-04-20 09:12:09] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+[2026-04-20 09:12:09] CLIENT -> SERVER: 
+
+[2026-04-20 09:12:09] CLIENT -> SERVER: Hello hanan,<br><br>We received a request to reset your password. Click the secure link below to do so:<br><br><b><a href='http://10.14.84.218/lastfyp/reset_password.php?token=6217fd55a24d28bd852fc75d7d1abb72ee5f2cb3fe6ce3ebd599e602fef95420&role=student&email=ferdousmussa16%40gmail.com'>Reset Your Password Here</a></b><br><br>If you didn't request this action, you can safely ignore this email. This link will expire in 1 Hour.<br><br>- The JU Learn Automated System
+
+[2026-04-20 09:12:09] CLIENT -> SERVER: 
+
+[2026-04-20 09:12:09] CLIENT -> SERVER: 
+
+[2026-04-20 09:12:09] CLIENT -> SERVER: --b1=_b01Kwh71bN3iNYlYIRJ0STCFuOXUdP6ErOyf4BAo--
+
+[2026-04-20 09:12:09] CLIENT -> SERVER: 
+
+[2026-04-20 09:12:09] CLIENT -> SERVER: .
+
+[2026-04-20 09:12:10] SERVER -> CLIENT: 250 2.0.0 OK  1776669131 a640c23a62f3a-ba4519f0602sm319894966b.20 - gsmtp
+
+[2026-04-20 09:12:10] CLIENT -> SERVER: QUIT
+
+[2026-04-20 09:12:11] SERVER -> CLIENT: 221 2.0.0 closing connection a640c23a62f3a-ba4519f0602sm319894966b.20 - gsmtp
+
+[2026-04-20 09:12:53] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP a640c23a62f3a-ba45121042esm313819966b.13 - gsmtp
+
+[2026-04-20 09:12:53] CLIENT -> SERVER: EHLO 10.14.84.218
+
+[2026-04-20 09:12:53] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [196.188.252.175]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2026-04-20 09:12:53] CLIENT -> SERVER: AUTH LOGIN
+
+[2026-04-20 09:12:53] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[2026-04-20 09:12:53] CLIENT -> SERVER: [credentials hidden]
+[2026-04-20 09:12:53] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[2026-04-20 09:12:53] CLIENT -> SERVER: [credentials hidden]
+[2026-04-20 09:12:54] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[2026-04-20 09:12:54] CLIENT -> SERVER: MAIL FROM:<julearn.office@gmail.com>
+
+[2026-04-20 09:12:54] SERVER -> CLIENT: 250 2.1.0 OK a640c23a62f3a-ba45121042esm313819966b.13 - gsmtp
+
+[2026-04-20 09:12:54] CLIENT -> SERVER: RCPT TO:<sebrinmahmud@gmail.com>
+
+[2026-04-20 09:12:54] SERVER -> CLIENT: 250 2.1.5 OK a640c23a62f3a-ba45121042esm313819966b.13 - gsmtp
+
+[2026-04-20 09:12:54] CLIENT -> SERVER: DATA
+
+[2026-04-20 09:12:54] SERVER -> CLIENT: 354 Go ahead a640c23a62f3a-ba45121042esm313819966b.13 - gsmtp
+
+[2026-04-20 09:12:54] CLIENT -> SERVER: Date: Mon, 20 Apr 2026 09:12:52 +0200
+
+[2026-04-20 09:12:54] CLIENT -> SERVER: To: ahlam helil <sebrinmahmud@gmail.com>
+
+[2026-04-20 09:12:54] CLIENT -> SERVER: From: JU Learn System <julearn.office@gmail.com>
+
+[2026-04-20 09:12:54] CLIENT -> SERVER: Subject: Password Recovery - JU Learn
+
+[2026-04-20 09:12:54] CLIENT -> SERVER: Message-ID: <HPtJEHwsuc5UxKfytJUgpk71ExNwbn0eWRSqhjOn6w@10.14.84.218>
+
+[2026-04-20 09:12:54] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.1 (https://github.com/PHPMailer/PHPMailer)
+
+[2026-04-20 09:12:54] CLIENT -> SERVER: MIME-Version: 1.0
+
+[2026-04-20 09:12:54] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[2026-04-20 09:12:54] CLIENT -> SERVER:  boundary="b1=_HPtJEHwsuc5UxKfytJUgpk71ExNwbn0eWRSqhjOn6w"
+
+[2026-04-20 09:12:54] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2026-04-20 09:12:54] CLIENT -> SERVER: 
+
+[2026-04-20 09:12:54] CLIENT -> SERVER: --b1=_HPtJEHwsuc5UxKfytJUgpk71ExNwbn0eWRSqhjOn6w
+
+[2026-04-20 09:12:54] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[2026-04-20 09:12:54] CLIENT -> SERVER: 
+
+[2026-04-20 09:12:54] CLIENT -> SERVER: Reset your password securely here: http://10.14.84.218/lastfyp/reset_password.php?token=2d099c9cbd463335fd80a4b1d300a0655a5a4a8f49c8f6efde51585d36523022&role=student&email=sebrinmahmud%40gmail.com (This link expires in 1 Hour)
+
+[2026-04-20 09:12:54] CLIENT -> SERVER: 
+
+[2026-04-20 09:12:54] CLIENT -> SERVER: --b1=_HPtJEHwsuc5UxKfytJUgpk71ExNwbn0eWRSqhjOn6w
+
+[2026-04-20 09:12:54] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+[2026-04-20 09:12:54] CLIENT -> SERVER: 
+
+[2026-04-20 09:12:54] CLIENT -> SERVER: Hello ahlam helil,<br><br>We received a request to reset your password. Click the secure link below to do so:<br><br><b><a href='http://10.14.84.218/lastfyp/reset_password.php?token=2d099c9cbd463335fd80a4b1d300a0655a5a4a8f49c8f6efde51585d36523022&role=student&email=sebrinmahmud%40gmail.com'>Reset Your Password Here</a></b><br><br>If you didn't request this action, you can safely ignore this email. This link will expire in 1 Hour.<br><br>- The JU Learn Automated System
+
+[2026-04-20 09:12:54] CLIENT -> SERVER: 
+
+[2026-04-20 09:12:54] CLIENT -> SERVER: 
+
+[2026-04-20 09:12:54] CLIENT -> SERVER: --b1=_HPtJEHwsuc5UxKfytJUgpk71ExNwbn0eWRSqhjOn6w--
+
+[2026-04-20 09:12:54] CLIENT -> SERVER: 
+
+[2026-04-20 09:12:54] CLIENT -> SERVER: .
+
+[2026-04-20 09:12:55] SERVER -> CLIENT: 250 2.0.0 OK  1776669176 a640c23a62f3a-ba45121042esm313819966b.13 - gsmtp
+
+[2026-04-20 09:12:55] CLIENT -> SERVER: QUIT
+
+[2026-04-20 09:12:55] SERVER -> CLIENT: 221 2.0.0 closing connection a640c23a62f3a-ba45121042esm313819966b.13 - gsmtp
+
+[2026-04-20 09:22:12] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP a640c23a62f3a-ba454d1b694sm315786566b.29 - gsmtp
+
+[2026-04-20 09:22:12] CLIENT -> SERVER: EHLO 10.14.84.218
+
+[2026-04-20 09:22:12] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [196.188.252.175]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2026-04-20 09:22:12] CLIENT -> SERVER: AUTH LOGIN
+
+[2026-04-20 09:22:13] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[2026-04-20 09:22:13] CLIENT -> SERVER: [credentials hidden]
+[2026-04-20 09:22:13] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[2026-04-20 09:22:13] CLIENT -> SERVER: [credentials hidden]
+[2026-04-20 09:22:13] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[2026-04-20 09:22:13] CLIENT -> SERVER: MAIL FROM:<julearn.office@gmail.com>
+
+[2026-04-20 09:22:13] SERVER -> CLIENT: 250 2.1.0 OK a640c23a62f3a-ba454d1b694sm315786566b.29 - gsmtp
+
+[2026-04-20 09:22:13] CLIENT -> SERVER: RCPT TO:<sebrinmahmud@gmail.com>
+
+[2026-04-20 09:22:14] SERVER -> CLIENT: 250 2.1.5 OK a640c23a62f3a-ba454d1b694sm315786566b.29 - gsmtp
+
+[2026-04-20 09:22:14] CLIENT -> SERVER: DATA
+
+[2026-04-20 09:22:14] SERVER -> CLIENT: 354 Go ahead a640c23a62f3a-ba454d1b694sm315786566b.29 - gsmtp
+
+[2026-04-20 09:22:14] CLIENT -> SERVER: Date: Mon, 20 Apr 2026 09:22:11 +0200
+
+[2026-04-20 09:22:14] CLIENT -> SERVER: To: ahlam helil <sebrinmahmud@gmail.com>
+
+[2026-04-20 09:22:14] CLIENT -> SERVER: From: JU Learn System <julearn.office@gmail.com>
+
+[2026-04-20 09:22:14] CLIENT -> SERVER: Subject: Password Recovery - JU Learn
+
+[2026-04-20 09:22:14] CLIENT -> SERVER: Message-ID: <Ed0THPgIktFgPNvC2wVennrUfAQxb9YQcP03WR4@10.14.84.218>
+
+[2026-04-20 09:22:14] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.1 (https://github.com/PHPMailer/PHPMailer)
+
+[2026-04-20 09:22:14] CLIENT -> SERVER: MIME-Version: 1.0
+
+[2026-04-20 09:22:14] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[2026-04-20 09:22:14] CLIENT -> SERVER:  boundary="b1=_Ed0THPgIktFgPNvC2wVennrUfAQxb9YQcP03WR4"
+
+[2026-04-20 09:22:14] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2026-04-20 09:22:14] CLIENT -> SERVER: 
+
+[2026-04-20 09:22:14] CLIENT -> SERVER: --b1=_Ed0THPgIktFgPNvC2wVennrUfAQxb9YQcP03WR4
+
+[2026-04-20 09:22:14] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[2026-04-20 09:22:14] CLIENT -> SERVER: 
+
+[2026-04-20 09:22:14] CLIENT -> SERVER: Reset your password securely here: http://10.14.84.218/lastfyp/reset_password.php?token=b188b963ba7b80417ec00e60b8673cdd30d62d8417b126074744d47870958acd&role=student&email=sebrinmahmud%40gmail.com (This link expires in 1 Hour)
+
+[2026-04-20 09:22:14] CLIENT -> SERVER: 
+
+[2026-04-20 09:22:14] CLIENT -> SERVER: --b1=_Ed0THPgIktFgPNvC2wVennrUfAQxb9YQcP03WR4
+
+[2026-04-20 09:22:14] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+[2026-04-20 09:22:14] CLIENT -> SERVER: 
+
+[2026-04-20 09:22:14] CLIENT -> SERVER: Hello ahlam helil,<br><br>We received a request to reset your password. Click the secure link below to do so:<br><br><b><a href='http://10.14.84.218/lastfyp/reset_password.php?token=b188b963ba7b80417ec00e60b8673cdd30d62d8417b126074744d47870958acd&role=student&email=sebrinmahmud%40gmail.com'>Reset Your Password Here</a></b><br><br>If you didn't request this action, you can safely ignore this email. This link will expire in 1 Hour.<br><br>- The JU Learn Automated System
+
+[2026-04-20 09:22:14] CLIENT -> SERVER: 
+
+[2026-04-20 09:22:14] CLIENT -> SERVER: 
+
+[2026-04-20 09:22:14] CLIENT -> SERVER: --b1=_Ed0THPgIktFgPNvC2wVennrUfAQxb9YQcP03WR4--
+
+[2026-04-20 09:22:14] CLIENT -> SERVER: 
+
+[2026-04-20 09:22:14] CLIENT -> SERVER: .
+
+[2026-04-20 09:22:15] SERVER -> CLIENT: 250 2.0.0 OK  1776669736 a640c23a62f3a-ba454d1b694sm315786566b.29 - gsmtp
+
+[2026-04-20 09:22:15] CLIENT -> SERVER: QUIT
+
+[2026-04-20 09:22:15] SERVER -> CLIENT: 221 2.0.0 closing connection a640c23a62f3a-ba454d1b694sm315786566b.29 - gsmtp
+
+[2026-04-20 12:38:46] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP a640c23a62f3a-ba4519f0602sm335513966b.20 - gsmtp
+
+[2026-04-20 12:38:46] CLIENT -> SERVER: EHLO localhost
+
+[2026-04-20 12:38:46] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [196.188.252.98]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2026-04-20 12:38:46] CLIENT -> SERVER: AUTH LOGIN
+
+[2026-04-20 12:38:47] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[2026-04-20 12:38:47] CLIENT -> SERVER: [credentials hidden]
+[2026-04-20 12:38:47] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[2026-04-20 12:38:47] CLIENT -> SERVER: [credentials hidden]
+[2026-04-20 12:38:47] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[2026-04-20 12:38:47] CLIENT -> SERVER: MAIL FROM:<julearn.office@gmail.com>
+
+[2026-04-20 12:38:47] SERVER -> CLIENT: 250 2.1.0 OK a640c23a62f3a-ba4519f0602sm335513966b.20 - gsmtp
+
+[2026-04-20 12:38:47] CLIENT -> SERVER: RCPT TO:<ksemira225@gmail.com>
+
+[2026-04-20 12:38:48] SERVER -> CLIENT: 250 2.1.5 OK a640c23a62f3a-ba4519f0602sm335513966b.20 - gsmtp
+
+[2026-04-20 12:38:48] CLIENT -> SERVER: DATA
+
+[2026-04-20 12:38:48] SERVER -> CLIENT: 354 Go ahead a640c23a62f3a-ba4519f0602sm335513966b.20 - gsmtp
+
+[2026-04-20 12:38:48] CLIENT -> SERVER: Date: Mon, 20 Apr 2026 12:38:45 +0200
+
+[2026-04-20 12:38:48] CLIENT -> SERVER: To: semira <ksemira225@gmail.com>
+
+[2026-04-20 12:38:48] CLIENT -> SERVER: From: JU Learn System <julearn.office@gmail.com>
+
+[2026-04-20 12:38:48] CLIENT -> SERVER: Subject: Password Recovery - JU Learn
+
+[2026-04-20 12:38:48] CLIENT -> SERVER: Message-ID: <kv5yUdKwxyn3SfuQ3ex6b515vdRw407hVssvmn5VTQ@localhost>
+
+[2026-04-20 12:38:48] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.1 (https://github.com/PHPMailer/PHPMailer)
+
+[2026-04-20 12:38:48] CLIENT -> SERVER: MIME-Version: 1.0
+
+[2026-04-20 12:38:48] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[2026-04-20 12:38:48] CLIENT -> SERVER:  boundary="b1=_kv5yUdKwxyn3SfuQ3ex6b515vdRw407hVssvmn5VTQ"
+
+[2026-04-20 12:38:48] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2026-04-20 12:38:48] CLIENT -> SERVER: 
+
+[2026-04-20 12:38:48] CLIENT -> SERVER: --b1=_kv5yUdKwxyn3SfuQ3ex6b515vdRw407hVssvmn5VTQ
+
+[2026-04-20 12:38:48] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[2026-04-20 12:38:48] CLIENT -> SERVER: 
+
+[2026-04-20 12:38:48] CLIENT -> SERVER: Reset your password securely here: http://localhost/lastfyp/reset_password.php?token=703e671e503d5705f1de4bf714db35b0e2a0595f3ac27c42add49b38afddee86&role=student&email=ksemira225%40gmail.com (This link expires in 1 Hour)
+
+[2026-04-20 12:38:48] CLIENT -> SERVER: 
+
+[2026-04-20 12:38:48] CLIENT -> SERVER: --b1=_kv5yUdKwxyn3SfuQ3ex6b515vdRw407hVssvmn5VTQ
+
+[2026-04-20 12:38:48] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+[2026-04-20 12:38:48] CLIENT -> SERVER: 
+
+[2026-04-20 12:38:48] CLIENT -> SERVER: Hello semira,<br><br>We received a request to reset your password. Click the secure link below to do so:<br><br><b><a href='http://localhost/lastfyp/reset_password.php?token=703e671e503d5705f1de4bf714db35b0e2a0595f3ac27c42add49b38afddee86&role=student&email=ksemira225%40gmail.com'>Reset Your Password Here</a></b><br><br>If you didn't request this action, you can safely ignore this email. This link will expire in 1 Hour.<br><br>- The JU Learn Automated System
+
+[2026-04-20 12:38:48] CLIENT -> SERVER: 
+
+[2026-04-20 12:38:48] CLIENT -> SERVER: 
+
+[2026-04-20 12:38:48] CLIENT -> SERVER: --b1=_kv5yUdKwxyn3SfuQ3ex6b515vdRw407hVssvmn5VTQ--
+
+[2026-04-20 12:38:48] CLIENT -> SERVER: 
+
+[2026-04-20 12:38:48] CLIENT -> SERVER: .
+
+[2026-04-20 12:38:50] SERVER -> CLIENT: 250 2.0.0 OK  1776681530 a640c23a62f3a-ba4519f0602sm335513966b.20 - gsmtp
+
+[2026-04-20 12:38:50] CLIENT -> SERVER: QUIT
+
+[2026-04-20 12:38:50] SERVER -> CLIENT: 221 2.0.0 closing connection a640c23a62f3a-ba4519f0602sm335513966b.20 - gsmtp
+
+[2026-04-21 09:08:25] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 4fb4d7f45d1cf-672c4d67e50sm2268674a12.27 - gsmtp
+
+[2026-04-21 09:08:25] CLIENT -> SERVER: EHLO localhost
+
+[2026-04-21 09:08:25] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [196.188.253.129]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2026-04-21 09:08:25] CLIENT -> SERVER: AUTH LOGIN
+
+[2026-04-21 09:08:25] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[2026-04-21 09:08:25] CLIENT -> SERVER: [credentials hidden]
+[2026-04-21 09:08:26] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[2026-04-21 09:08:26] CLIENT -> SERVER: [credentials hidden]
+[2026-04-21 09:08:26] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[2026-04-21 09:08:26] CLIENT -> SERVER: MAIL FROM:<julearn.office@gmail.com>
+
+[2026-04-21 09:08:26] SERVER -> CLIENT: 250 2.1.0 OK 4fb4d7f45d1cf-672c4d67e50sm2268674a12.27 - gsmtp
+
+[2026-04-21 09:08:26] CLIENT -> SERVER: RCPT TO:<sebrinmahmud@gmail.com>
+
+[2026-04-21 09:08:27] SERVER -> CLIENT: 250 2.1.5 OK 4fb4d7f45d1cf-672c4d67e50sm2268674a12.27 - gsmtp
+
+[2026-04-21 09:08:27] CLIENT -> SERVER: DATA
+
+[2026-04-21 09:08:27] SERVER -> CLIENT: 354 Go ahead 4fb4d7f45d1cf-672c4d67e50sm2268674a12.27 - gsmtp
+
+[2026-04-21 09:08:27] CLIENT -> SERVER: Date: Tue, 21 Apr 2026 09:08:24 +0200
+
+[2026-04-21 09:08:27] CLIENT -> SERVER: To: sebrin <sebrinmahmud@gmail.com>
+
+[2026-04-21 09:08:27] CLIENT -> SERVER: From: JU Learn System <julearn.office@gmail.com>
+
+[2026-04-21 09:08:27] CLIENT -> SERVER: Subject: Password Recovery - JU Learn
+
+[2026-04-21 09:08:27] CLIENT -> SERVER: Message-ID: <tSxiOegwSdCQwhpDWUn8qdRfUphmJBlE2zOwGpN98@localhost>
+
+[2026-04-21 09:08:27] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.1 (https://github.com/PHPMailer/PHPMailer)
+
+[2026-04-21 09:08:27] CLIENT -> SERVER: MIME-Version: 1.0
+
+[2026-04-21 09:08:27] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[2026-04-21 09:08:27] CLIENT -> SERVER:  boundary="b1=_tSxiOegwSdCQwhpDWUn8qdRfUphmJBlE2zOwGpN98"
+
+[2026-04-21 09:08:27] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2026-04-21 09:08:27] CLIENT -> SERVER: 
+
+[2026-04-21 09:08:27] CLIENT -> SERVER: --b1=_tSxiOegwSdCQwhpDWUn8qdRfUphmJBlE2zOwGpN98
+
+[2026-04-21 09:08:27] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[2026-04-21 09:08:27] CLIENT -> SERVER: 
+
+[2026-04-21 09:08:27] CLIENT -> SERVER: Reset your password securely here: http://localhost/lastfyp/reset_password.php?token=92eea47deedc9fa628a411d1c451c10b7877c423ae7ff1d7039033e1b6fe75c1&role=student&email=sebrinmahmud%40gmail.com (This link expires in 1 Hour)
+
+[2026-04-21 09:08:27] CLIENT -> SERVER: 
+
+[2026-04-21 09:08:27] CLIENT -> SERVER: --b1=_tSxiOegwSdCQwhpDWUn8qdRfUphmJBlE2zOwGpN98
+
+[2026-04-21 09:08:27] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+[2026-04-21 09:08:27] CLIENT -> SERVER: 
+
+[2026-04-21 09:08:27] CLIENT -> SERVER: Hello sebrin,<br><br>We received a request to reset your password. Click the secure link below to do so:<br><br><b><a href='http://localhost/lastfyp/reset_password.php?token=92eea47deedc9fa628a411d1c451c10b7877c423ae7ff1d7039033e1b6fe75c1&role=student&email=sebrinmahmud%40gmail.com'>Reset Your Password Here</a></b><br><br>If you didn't request this action, you can safely ignore this email. This link will expire in 1 Hour.<br><br>- The JU Learn Automated System
+
+[2026-04-21 09:08:27] CLIENT -> SERVER: 
+
+[2026-04-21 09:08:27] CLIENT -> SERVER: 
+
+[2026-04-21 09:08:27] CLIENT -> SERVER: --b1=_tSxiOegwSdCQwhpDWUn8qdRfUphmJBlE2zOwGpN98--
+
+[2026-04-21 09:08:27] CLIENT -> SERVER: 
+
+[2026-04-21 09:08:27] CLIENT -> SERVER: .
+
+[2026-04-21 09:08:28] SERVER -> CLIENT: 250 2.0.0 OK  1776755309 4fb4d7f45d1cf-672c4d67e50sm2268674a12.27 - gsmtp
+
+[2026-04-21 09:08:28] CLIENT -> SERVER: QUIT
+
+[2026-04-21 09:08:29] SERVER -> CLIENT: 221 2.0.0 closing connection 4fb4d7f45d1cf-672c4d67e50sm2268674a12.27 - gsmtp
+
+[2026-04-21 15:46:16] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP a640c23a62f3a-ba451210e49sm455852566b.10 - gsmtp
+
+[2026-04-21 15:46:16] CLIENT -> SERVER: EHLO localhost
+
+[2026-04-21 15:46:17] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [196.188.253.129]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2026-04-21 15:46:17] CLIENT -> SERVER: AUTH LOGIN
+
+[2026-04-21 15:46:18] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[2026-04-21 15:46:18] CLIENT -> SERVER: [credentials hidden]
+[2026-04-21 15:46:19] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[2026-04-21 15:46:19] CLIENT -> SERVER: [credentials hidden]
+[2026-04-21 15:46:20] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[2026-04-21 15:46:20] CLIENT -> SERVER: MAIL FROM:<julearn.office@gmail.com>
+
+[2026-04-21 15:46:21] SERVER -> CLIENT: 250 2.1.0 OK a640c23a62f3a-ba451210e49sm455852566b.10 - gsmtp
+
+[2026-04-21 15:46:21] CLIENT -> SERVER: RCPT TO:<sebrinmahmud@gmail.com>
+
+[2026-04-21 15:46:21] SERVER -> CLIENT: 250 2.1.5 OK a640c23a62f3a-ba451210e49sm455852566b.10 - gsmtp
+
+[2026-04-21 15:46:21] CLIENT -> SERVER: DATA
+
+[2026-04-21 15:46:22] SERVER -> CLIENT: 354 Go ahead a640c23a62f3a-ba451210e49sm455852566b.10 - gsmtp
+
+[2026-04-21 15:46:22] CLIENT -> SERVER: Date: Tue, 21 Apr 2026 15:46:12 +0200
+
+[2026-04-21 15:46:22] CLIENT -> SERVER: To: sebrin <sebrinmahmud@gmail.com>
+
+[2026-04-21 15:46:22] CLIENT -> SERVER: From: JU Learn System <julearn.office@gmail.com>
+
+[2026-04-21 15:46:22] CLIENT -> SERVER: Subject: Password Recovery - JU Learn
+
+[2026-04-21 15:46:22] CLIENT -> SERVER: Message-ID: <secFZj5PzXXTBEusY2myu1Wi3CUWpHyNjUo7tpSs7U@localhost>
+
+[2026-04-21 15:46:22] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.1 (https://github.com/PHPMailer/PHPMailer)
+
+[2026-04-21 15:46:22] CLIENT -> SERVER: MIME-Version: 1.0
+
+[2026-04-21 15:46:22] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[2026-04-21 15:46:22] CLIENT -> SERVER:  boundary="b1=_secFZj5PzXXTBEusY2myu1Wi3CUWpHyNjUo7tpSs7U"
+
+[2026-04-21 15:46:22] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2026-04-21 15:46:22] CLIENT -> SERVER: 
+
+[2026-04-21 15:46:22] CLIENT -> SERVER: --b1=_secFZj5PzXXTBEusY2myu1Wi3CUWpHyNjUo7tpSs7U
+
+[2026-04-21 15:46:22] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[2026-04-21 15:46:22] CLIENT -> SERVER: 
+
+[2026-04-21 15:46:22] CLIENT -> SERVER: Reset your password securely here: http://localhost/lastfyp/reset_password.php?token=47424f3f6ad8d259031d5b804e4f0cc25f3f8f16caf303aa7ceb6ec93beb77f7&role=student&email=sebrinmahmud%40gmail.com (This link expires in 1 Hour)
+
+[2026-04-21 15:46:22] CLIENT -> SERVER: 
+
+[2026-04-21 15:46:22] CLIENT -> SERVER: --b1=_secFZj5PzXXTBEusY2myu1Wi3CUWpHyNjUo7tpSs7U
+
+[2026-04-21 15:46:22] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+[2026-04-21 15:46:22] CLIENT -> SERVER: 
+
+[2026-04-21 15:46:22] CLIENT -> SERVER: Hello sebrin,<br><br>We received a request to reset your password. Click the secure link below to do so:<br><br><b><a href='http://localhost/lastfyp/reset_password.php?token=47424f3f6ad8d259031d5b804e4f0cc25f3f8f16caf303aa7ceb6ec93beb77f7&role=student&email=sebrinmahmud%40gmail.com'>Reset Your Password Here</a></b><br><br>If you didn't request this action, you can safely ignore this email. This link will expire in 1 Hour.<br><br>- The JU Learn Automated System
+
+[2026-04-21 15:46:22] CLIENT -> SERVER: 
+
+[2026-04-21 15:46:22] CLIENT -> SERVER: 
+
+[2026-04-21 15:46:22] CLIENT -> SERVER: --b1=_secFZj5PzXXTBEusY2myu1Wi3CUWpHyNjUo7tpSs7U--
+
+[2026-04-21 15:46:22] CLIENT -> SERVER: 
+
+[2026-04-21 15:46:22] CLIENT -> SERVER: .
+
+[2026-04-21 15:46:23] SERVER -> CLIENT: 250 2.0.0 OK  1776779184 a640c23a62f3a-ba451210e49sm455852566b.10 - gsmtp
+
+[2026-04-21 15:46:23] CLIENT -> SERVER: QUIT
+
+[2026-04-21 15:46:24] SERVER -> CLIENT: 221 2.0.0 closing connection a640c23a62f3a-ba451210e49sm455852566b.10 - gsmtp
+
+[2026-04-21 15:46:26] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP a640c23a62f3a-ba4517ee077sm458701266b.18 - gsmtp
+
+[2026-04-21 15:46:26] CLIENT -> SERVER: EHLO localhost
+
+[2026-04-21 15:46:26] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [196.188.253.129]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2026-04-21 15:46:26] CLIENT -> SERVER: AUTH LOGIN
+
+[2026-04-21 15:46:27] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[2026-04-21 15:46:27] CLIENT -> SERVER: [credentials hidden]
+[2026-04-21 15:46:28] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[2026-04-21 15:46:28] CLIENT -> SERVER: [credentials hidden]
+[2026-04-21 15:46:31] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[2026-04-21 15:46:31] CLIENT -> SERVER: MAIL FROM:<julearn.office@gmail.com>
+
+[2026-04-21 15:46:32] SERVER -> CLIENT: 250 2.1.0 OK a640c23a62f3a-ba4517ee077sm458701266b.18 - gsmtp
+
+[2026-04-21 15:46:32] CLIENT -> SERVER: RCPT TO:<sebrinmahmud@gmail.com>
+
+[2026-04-21 15:46:33] SERVER -> CLIENT: 250 2.1.5 OK a640c23a62f3a-ba4517ee077sm458701266b.18 - gsmtp
+
+[2026-04-21 15:46:33] CLIENT -> SERVER: DATA
+
+[2026-04-21 15:46:34] SERVER -> CLIENT: 354 Go ahead a640c23a62f3a-ba4517ee077sm458701266b.18 - gsmtp
+
+[2026-04-21 15:46:34] CLIENT -> SERVER: Date: Tue, 21 Apr 2026 15:46:24 +0200
+
+[2026-04-21 15:46:34] CLIENT -> SERVER: To: sebrin <sebrinmahmud@gmail.com>
+
+[2026-04-21 15:46:34] CLIENT -> SERVER: From: JU Learn System <julearn.office@gmail.com>
+
+[2026-04-21 15:46:34] CLIENT -> SERVER: Subject: Password Recovery - JU Learn
+
+[2026-04-21 15:46:34] CLIENT -> SERVER: Message-ID: <DLTMrWktX9pXeawRHVFW2mydb8oU4fBXyIAxLDIXa5Q@localhost>
+
+[2026-04-21 15:46:34] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.1 (https://github.com/PHPMailer/PHPMailer)
+
+[2026-04-21 15:46:34] CLIENT -> SERVER: MIME-Version: 1.0
+
+[2026-04-21 15:46:34] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[2026-04-21 15:46:34] CLIENT -> SERVER:  boundary="b1=_DLTMrWktX9pXeawRHVFW2mydb8oU4fBXyIAxLDIXa5Q"
+
+[2026-04-21 15:46:34] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2026-04-21 15:46:34] CLIENT -> SERVER: 
+
+[2026-04-21 15:46:34] CLIENT -> SERVER: --b1=_DLTMrWktX9pXeawRHVFW2mydb8oU4fBXyIAxLDIXa5Q
+
+[2026-04-21 15:46:34] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[2026-04-21 15:46:34] CLIENT -> SERVER: 
+
+[2026-04-21 15:46:34] CLIENT -> SERVER: Reset your password securely here: http://localhost/lastfyp/reset_password.php?token=1881195fce683e6e41a55c54424e56f2c04f3c2bf1cad986ecebf3a102306cf1&role=student&email=sebrinmahmud%40gmail.com (This link expires in 1 Hour)
+
+[2026-04-21 15:46:34] CLIENT -> SERVER: 
+
+[2026-04-21 15:46:34] CLIENT -> SERVER: --b1=_DLTMrWktX9pXeawRHVFW2mydb8oU4fBXyIAxLDIXa5Q
+
+[2026-04-21 15:46:34] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+[2026-04-21 15:46:34] CLIENT -> SERVER: 
+
+[2026-04-21 15:46:34] CLIENT -> SERVER: Hello sebrin,<br><br>We received a request to reset your password. Click the secure link below to do so:<br><br><b><a href='http://localhost/lastfyp/reset_password.php?token=1881195fce683e6e41a55c54424e56f2c04f3c2bf1cad986ecebf3a102306cf1&role=student&email=sebrinmahmud%40gmail.com'>Reset Your Password Here</a></b><br><br>If you didn't request this action, you can safely ignore this email. This link will expire in 1 Hour.<br><br>- The JU Learn Automated System
+
+[2026-04-21 15:46:34] CLIENT -> SERVER: 
+
+[2026-04-21 15:46:34] CLIENT -> SERVER: 
+
+[2026-04-21 15:46:34] CLIENT -> SERVER: --b1=_DLTMrWktX9pXeawRHVFW2mydb8oU4fBXyIAxLDIXa5Q--
+
+[2026-04-21 15:46:34] CLIENT -> SERVER: 
+
+[2026-04-21 15:46:34] CLIENT -> SERVER: .
+
+[2026-04-21 15:46:38] SERVER -> CLIENT: 250 2.0.0 OK  1776779196 a640c23a62f3a-ba4517ee077sm458701266b.18 - gsmtp
+
+[2026-04-21 15:46:38] CLIENT -> SERVER: QUIT
+
+[2026-04-21 15:46:38] SERVER -> CLIENT: 221 2.0.0 closing connection a640c23a62f3a-ba4517ee077sm458701266b.18 - gsmtp
+
+[2026-04-21 15:48:19] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 4fb4d7f45d1cf-672c4d6f63fsm2723787a12.31 - gsmtp
+
+[2026-04-21 15:48:19] CLIENT -> SERVER: EHLO 10.52.50.218
+
+[2026-04-21 15:48:19] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [196.188.253.129]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2026-04-21 15:48:19] CLIENT -> SERVER: AUTH LOGIN
+
+[2026-04-21 15:48:20] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[2026-04-21 15:48:20] CLIENT -> SERVER: [credentials hidden]
+[2026-04-21 15:48:21] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[2026-04-21 15:48:21] CLIENT -> SERVER: [credentials hidden]
+[2026-04-21 15:48:22] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[2026-04-21 15:48:22] CLIENT -> SERVER: MAIL FROM:<julearn.office@gmail.com>
+
+[2026-04-21 15:48:25] SERVER -> CLIENT: 250 2.1.0 OK 4fb4d7f45d1cf-672c4d6f63fsm2723787a12.31 - gsmtp
+
+[2026-04-21 15:48:25] CLIENT -> SERVER: RCPT TO:<sebrinmahmud@gmail.com>
+
+[2026-04-21 15:48:26] SERVER -> CLIENT: 250 2.1.5 OK 4fb4d7f45d1cf-672c4d6f63fsm2723787a12.31 - gsmtp
+
+[2026-04-21 15:48:26] CLIENT -> SERVER: DATA
+
+[2026-04-21 15:48:27] SERVER -> CLIENT: 354 Go ahead 4fb4d7f45d1cf-672c4d6f63fsm2723787a12.31 - gsmtp
+
+[2026-04-21 15:48:27] CLIENT -> SERVER: Date: Tue, 21 Apr 2026 15:48:18 +0200
+
+[2026-04-21 15:48:27] CLIENT -> SERVER: To: sebrin <sebrinmahmud@gmail.com>
+
+[2026-04-21 15:48:27] CLIENT -> SERVER: From: JU Learn System <julearn.office@gmail.com>
+
+[2026-04-21 15:48:27] CLIENT -> SERVER: Subject: Password Recovery - JU Learn
+
+[2026-04-21 15:48:27] CLIENT -> SERVER: Message-ID: <VUWd76HCPNWdfNA0uzwiNj9MwpKsOBJ5K8xYLGp0s@10.52.50.218>
+
+[2026-04-21 15:48:27] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.1 (https://github.com/PHPMailer/PHPMailer)
+
+[2026-04-21 15:48:27] CLIENT -> SERVER: MIME-Version: 1.0
+
+[2026-04-21 15:48:27] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[2026-04-21 15:48:27] CLIENT -> SERVER:  boundary="b1=_VUWd76HCPNWdfNA0uzwiNj9MwpKsOBJ5K8xYLGp0s"
+
+[2026-04-21 15:48:27] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2026-04-21 15:48:27] CLIENT -> SERVER: 
+
+[2026-04-21 15:48:27] CLIENT -> SERVER: --b1=_VUWd76HCPNWdfNA0uzwiNj9MwpKsOBJ5K8xYLGp0s
+
+[2026-04-21 15:48:27] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[2026-04-21 15:48:27] CLIENT -> SERVER: 
+
+[2026-04-21 15:48:27] CLIENT -> SERVER: Reset your password securely here: http://10.52.50.218/lastfyp/reset_password.php?token=e217e4b73f8f931e0e3126e786c5fe5b18ebbfdaae9f69f8faf37c167d08d41f&role=student&email=sebrinmahmud%40gmail.com (This link expires in 1 Hour)
+
+[2026-04-21 15:48:27] CLIENT -> SERVER: 
+
+[2026-04-21 15:48:27] CLIENT -> SERVER: --b1=_VUWd76HCPNWdfNA0uzwiNj9MwpKsOBJ5K8xYLGp0s
+
+[2026-04-21 15:48:27] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+[2026-04-21 15:48:27] CLIENT -> SERVER: 
+
+[2026-04-21 15:48:27] CLIENT -> SERVER: Hello sebrin,<br><br>We received a request to reset your password. Click the secure link below to do so:<br><br><b><a href='http://10.52.50.218/lastfyp/reset_password.php?token=e217e4b73f8f931e0e3126e786c5fe5b18ebbfdaae9f69f8faf37c167d08d41f&role=student&email=sebrinmahmud%40gmail.com'>Reset Your Password Here</a></b><br><br>If you didn't request this action, you can safely ignore this email. This link will expire in 1 Hour.<br><br>- The JU Learn Automated System
+
+[2026-04-21 15:48:27] CLIENT -> SERVER: 
+
+[2026-04-21 15:48:27] CLIENT -> SERVER: 
+
+[2026-04-21 15:48:27] CLIENT -> SERVER: --b1=_VUWd76HCPNWdfNA0uzwiNj9MwpKsOBJ5K8xYLGp0s--
+
+[2026-04-21 15:48:27] CLIENT -> SERVER: 
+
+[2026-04-21 15:48:27] CLIENT -> SERVER: .
+
+[2026-04-21 15:48:29] SERVER -> CLIENT: 250 2.0.0 OK  1776779309 4fb4d7f45d1cf-672c4d6f63fsm2723787a12.31 - gsmtp
+
+[2026-04-21 15:48:29] CLIENT -> SERVER: QUIT
+
+[2026-04-21 15:48:30] SERVER -> CLIENT: 221 2.0.0 closing connection 4fb4d7f45d1cf-672c4d6f63fsm2723787a12.31 - gsmtp
+
+[2026-04-21 21:29:20] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP a640c23a62f3a-ba451210e26sm475476466b.8 - gsmtp
+
+[2026-04-21 21:29:20] CLIENT -> SERVER: EHLO localhost
+
+[2026-04-21 21:29:21] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [196.188.252.129]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[2026-04-21 21:29:21] CLIENT -> SERVER: AUTH LOGIN
+
+[2026-04-21 21:29:21] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[2026-04-21 21:29:21] CLIENT -> SERVER: [credentials hidden]
+[2026-04-21 21:29:21] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[2026-04-21 21:29:21] CLIENT -> SERVER: [credentials hidden]
+[2026-04-21 21:29:22] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[2026-04-21 21:29:22] CLIENT -> SERVER: MAIL FROM:<julearn.office@gmail.com>
+
+[2026-04-21 21:29:22] SERVER -> CLIENT: 250 2.1.0 OK a640c23a62f3a-ba451210e26sm475476466b.8 - gsmtp
+
+[2026-04-21 21:29:22] CLIENT -> SERVER: RCPT TO:<sebrinmahmud@gmail.com>
+
+[2026-04-21 21:29:23] SERVER -> CLIENT: 250 2.1.5 OK a640c23a62f3a-ba451210e26sm475476466b.8 - gsmtp
+
+[2026-04-21 21:29:23] CLIENT -> SERVER: DATA
+
+[2026-04-21 21:29:24] SERVER -> CLIENT: 354 Go ahead a640c23a62f3a-ba451210e26sm475476466b.8 - gsmtp
+
+[2026-04-21 21:29:24] CLIENT -> SERVER: Date: Tue, 21 Apr 2026 21:29:17 +0200
+
+[2026-04-21 21:29:24] CLIENT -> SERVER: To: sebrin <sebrinmahmud@gmail.com>
+
+[2026-04-21 21:29:24] CLIENT -> SERVER: From: JU Learn System <julearn.office@gmail.com>
+
+[2026-04-21 21:29:24] CLIENT -> SERVER: Subject: Password Recovery - JU Learn
+
+[2026-04-21 21:29:24] CLIENT -> SERVER: Message-ID: <SV9IVqyhv6NexNYhYulbhNpsm0XDerSWQEIYHc3QCiU@localhost>
+
+[2026-04-21 21:29:24] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.1 (https://github.com/PHPMailer/PHPMailer)
+
+[2026-04-21 21:29:24] CLIENT -> SERVER: MIME-Version: 1.0
+
+[2026-04-21 21:29:24] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[2026-04-21 21:29:24] CLIENT -> SERVER:  boundary="b1=_SV9IVqyhv6NexNYhYulbhNpsm0XDerSWQEIYHc3QCiU"
+
+[2026-04-21 21:29:24] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2026-04-21 21:29:24] CLIENT -> SERVER: 
+
+[2026-04-21 21:29:24] CLIENT -> SERVER: --b1=_SV9IVqyhv6NexNYhYulbhNpsm0XDerSWQEIYHc3QCiU
+
+[2026-04-21 21:29:24] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[2026-04-21 21:29:24] CLIENT -> SERVER: 
+
+[2026-04-21 21:29:24] CLIENT -> SERVER: Reset your password securely here: http://localhost/lastfyp/reset_password.php?token=61636ece0d0052f98c831040fbf78bc5067ba53744a05785d687ebd0010a36f7&role=student&email=sebrinmahmud%40gmail.com (This link expires in 1 Hour)
+
+[2026-04-21 21:29:24] CLIENT -> SERVER: 
+
+[2026-04-21 21:29:24] CLIENT -> SERVER: --b1=_SV9IVqyhv6NexNYhYulbhNpsm0XDerSWQEIYHc3QCiU
+
+[2026-04-21 21:29:24] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+[2026-04-21 21:29:24] CLIENT -> SERVER: 
+
+[2026-04-21 21:29:24] CLIENT -> SERVER: Hello sebrin,<br><br>We received a request to reset your password. Click the secure link below to do so:<br><br><b><a href='http://localhost/lastfyp/reset_password.php?token=61636ece0d0052f98c831040fbf78bc5067ba53744a05785d687ebd0010a36f7&role=student&email=sebrinmahmud%40gmail.com'>Reset Your Password Here</a></b><br><br>If you didn't request this action, you can safely ignore this email. This link will expire in 1 Hour.<br><br>- The JU Learn Automated System
+
+[2026-04-21 21:29:24] CLIENT -> SERVER: 
+
+[2026-04-21 21:29:24] CLIENT -> SERVER: 
+
+[2026-04-21 21:29:24] CLIENT -> SERVER: --b1=_SV9IVqyhv6NexNYhYulbhNpsm0XDerSWQEIYHc3QCiU--
+
+[2026-04-21 21:29:24] CLIENT -> SERVER: 
+
+[2026-04-21 21:29:24] CLIENT -> SERVER: .
+
+[2026-04-21 21:29:26] SERVER -> CLIENT: 250 2.0.0 OK  1776799766 a640c23a62f3a-ba451210e26sm475476466b.8 - gsmtp
+
+[2026-04-21 21:29:26] CLIENT -> SERVER: QUIT
+
+[2026-04-21 21:29:26] SERVER -> CLIENT: 221 2.0.0 closing connection a640c23a62f3a-ba451210e26sm475476466b.8 - gsmtp
+
