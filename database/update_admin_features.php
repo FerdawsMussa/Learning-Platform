@@ -1,0 +1,34 @@
+<?php
+// c:\xampp\htdocs\lastfyp\database\update_admin_features.php
+require_once dirname(__DIR__) . '/api/db.php';
+
+echo "Applying Schema Enhancements for Admin Dash...\n";
+
+try {
+    // 1. Students: Add analytics columns
+    $pdo->exec("ALTER TABLE `students` ADD COLUMN IF NOT EXISTS `last_login` DATETIME NULL AFTER `password` ");
+    $pdo->exec("ALTER TABLE `students` ADD COLUMN IF NOT EXISTS `total_time_spent` INT DEFAULT 0 AFTER `last_login` ");
+    echo "✔ Updated students table with analytics columns.\n";
+
+    // 2. Admins: Add settings columns
+    $pdo->exec("ALTER TABLE `admins` ADD COLUMN IF NOT EXISTS `full_name` VARCHAR(100) NULL AFTER `username` ");
+    $pdo->exec("ALTER TABLE `admins` ADD COLUMN IF NOT EXISTS `theme_mode` VARCHAR(20) DEFAULT 'dark' AFTER `role` ");
+    $pdo->exec("ALTER TABLE `admins` ADD COLUMN IF NOT EXISTS `notifications_enabled` TINYINT(1) DEFAULT 1 AFTER `theme_mode` ");
+    echo "✔ Updated admins table with settings and name columns.\n";
+
+    // 3. New Table: Admin Notifications
+    $pdo->exec("CREATE TABLE IF NOT EXISTS `notification_admin` (
+        `id` INT AUTO_INCREMENT PRIMARY KEY,
+        `type` VARCHAR(50) NOT NULL,
+        `user_id` INT NULL,
+        `message` TEXT NOT NULL,
+        `is_read` TINYINT(1) DEFAULT 0,
+        `created_at` DATETIME DEFAULT CURRENT_TIMESTAMP
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;");
+    echo "✔ Created notification_admin table.\n";
+
+    echo "\n✔ Migration Successful!\n";
+
+} catch (PDOException $e) {
+    die("Migration Failed: " . $e->getMessage() . "\n");
+}
