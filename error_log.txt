@@ -1,0 +1,3 @@
+[2026-04-22 21:35:13] Signup Error: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+[2026-04-25 20:45:19] Signup Error: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`offline_lms_db`.`notifications`, CONSTRAINT `notifications_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE) in C:\xampp\htdocs\lastfyp\signup.php:97
+POST Data: {"course_id":"","role":"instructor","full_name":"eman","email":"emans@gmail.com","linkedin":"https:\/\/linkedin.com\/in\/ellien","github":"https:\/\/github.com\/in\/ellien","portfolio":""}

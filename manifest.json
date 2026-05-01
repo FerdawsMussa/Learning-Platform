@@ -1,0 +1,14 @@
+{
+    "name": "JU Learn",
+    "short_name": "JU Learn",
+    "description": "Jordan University Professional Learning Management System",
+    "start_url": "/lastfyp/dashboard.php",
+    "scope": "/lastfyp/",
+    "display": "standalone",
+    "background_color": "#0a0e12",
+    "theme_color": "#00e599",
+    "orientation": "portrait-primary",
+    "categories": ["education"],
+    "lang": "en",
+    "icons": []
+}
